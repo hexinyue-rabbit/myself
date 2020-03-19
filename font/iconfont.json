@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8208686",
+      "name": "对话框1",
+      "font_class": "duihuakuang",
+      "unicode": "e51b",
+      "unicode_decimal": 58651
+    },
+    {
+      "icon_id": "9295720",
+      "name": "菱形",
+      "font_class": "lingxing",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "9635554",
+      "name": "对话框",
+      "font_class": "weibiaoti-",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

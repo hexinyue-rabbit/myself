@@ -1,0 +1,154 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-style: normal;
+   list-style: none;
+}
+.total{
+    width: 700px;
+    height: 800px;
+    border: 6px solid #2E74B5;
+    margin: 50px auto;
+}
+.total .left{
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+.total .left .myself{
+    width: 100%;
+    height: 230px;
+    margin-top: 20px;
+}
+.total .left .myself .img{
+    width: 81px;
+    height: 116px;
+    margin-bottom: 20px;
+}
+.total .left .myself .img img{
+    width: 100px;
+    height: 120px;
+    margin-left: 46px;
+    margin-top: 10px;
+}
+.total .left .myself h3{
+    color: #2E74B5;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.total .left .myself span{
+    color: #2E74B5;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.total .left .meg{
+    width: 100%;
+    height: 150px;
+}
+.total .left .meg .head,.total .left .lx .head,.total .left .pj .head{
+    width: 130px;
+    height: 20px;
+    border-radius: 6px;
+    background: lightskyblue;
+    margin-left: 15px;
+    margin-bottom: 6px;
+}
+.total .left .meg li,.total .left .lx li,.total .left .pj li{
+    margin-left: 15px;
+    line-height: 26px;
+}
+.total .left .meg li span::before,
+.total .left .lx li span::before,
+.total .left .pj li span::before{
+    font-size: 12px;
+    color: black;
+    margin-right: 5px;
+}
+.total .left .lx{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.total .left .pj{
+    width: 100%;
+    height: 230px;
+}
+/*right部分*/
+.total .right{
+    width: 476px;
+    height: 100%;
+    float: left;
+}
+.total .right .edu{
+    width: 100%;
+    height: 120px;
+    margin-top: 28px;
+    border-radius: 6px;
+}
+.total .right .edu .head,.total .right .work .head,.total .right .ry .head,.total .right .jn .head{
+    width: 100%;
+    height: 20px;
+    background: lightskyblue;
+    border-radius: 6px;
+}
+.total .right .edu .head span{
+    color: black; 
+    font-size: 16px;
+}
+::before{
+    color: #177CB0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.total .right .edu  p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.total .right .edu i{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.total .right .work{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.total .right .work p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.total .right .work li{
+    margin-left: 10px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.total .right .work li span::before,.total .right .ry li span::before,.total .right .jn li span::before{
+    font-size: 12px;
+    color: black;
+    margin-right: 5px;
+}
+.total .right .ry{
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+}
+.total .right .ry li,.total .right .jn li{
+    line-height: 18px;
+    margin-top: 13px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.total .right .jn{
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+}
